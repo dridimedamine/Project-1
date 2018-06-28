@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <title>Document     1</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url(img1.png)
+        }
+
+        ul.topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+
+        ul.topnav li {
+            display: block;
+            color: chocolate;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: left;
+        }
+
+
+        ul.topnav li.right {
+            float: right;
+        }
+
+        #button2 {
+
+            height: 40px;
+            width: 150px;
+            margin-left: 100px;
+            color: black;
+            background-color: rgb(206, 157, 34);
+        }
+
+        .button2 {
+            height: 40px;
+            width: 150px;
+            margin-left: 100px;
+            color: black;
+            background-color: rgb(206, 157, 34);
+        }
+
+
+        @media screen and (max-width: 600px) {
+            ul.topnav li.right,
+            ul.topnav li {
+                float: none;
+            }
+        }
+
+        h1 {
+            color: rgb(206, 157, 34);
+            margin-left: 150px;
+
+            margin-left: 100px;
+        }
+
+        h3 {
+            color: aliceblue;
+            margin-left: 100px;
+            margin-block-end: 252px;
+        }
+
+        .img {
+            height: 100px;
+            width: 317px;
+
+            margin-left: 150px;
+            margin-top: 25px;
+
+        }
+
+        .image1 {
+
+
+            width: 30px;
+            height: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <ul class="topnav">
+        <li>
+            <button class="image1" border="solid">
+                <img src="image1.jpg" style="width: 30px; height: 30px ;margin-top: -3px ; margin-left: -8px" alt="image1">
+            </button>
+        </li>
+        <li> NEW</li>
+        <li>GAME</li>
+        <li>UNIVERSE</li>
+        <li>NEXUS</li>
+        <li>ESPORTS</li>
+        <li>COMMUNITY</li>
+        <li>SUPPORT</li>
+       
+        <li>MERCHANDISE</li>
+        <li class="right">
+                <button  id="button2" border="solid" >PLAY NOW</button>
+            </li>
+        
+        
+        <li  class="right">LOGIN</li>
+
+       
+       
+
+    </ul>
+    <img class "img" src="leaugue.png" alt="league">
+    <br>
+
+    <h1>Pyke available now!</h1>
+
+    <br>
+    <h3>New to the game? Turrets giving you trouble? Should I hit this dragon? We got you.</h3>
+    <br>
+    <button class="button2">LEARN MORE</button>
+
+</body>
+
+</html>
